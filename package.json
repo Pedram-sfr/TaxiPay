@@ -1,0 +1,42 @@
+{
+  "name": "taxipay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "auto-bind": "^3.0.0",
+    "aws-sdk": "^2.1632.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cron": "^3.1.7",
+    "croner": "^8.0.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "handlebars": "^4.7.8",
+    "http-errors": "^2.0.0",
+    "jalali-moment": "^3.3.11",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.3",
+    "mongoose-paginate": "^5.0.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0",
+    "node-xlsx": "^0.24.0",
+    "nodemon": "^3.1.0",
+    "redis": "^4.6.13",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-dist": "^5.17.2",
+    "swagger-ui-express": "^5.0.0",
+    "url": "^0.11.4"
+  }
+}
